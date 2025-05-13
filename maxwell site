@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>maxwell cat</title>
+   <link rel="stylesheet" href="estylo.css">
 </head>
 <body background="gif max.gif">
     
-    <h1>uma pagina sobre o gato maxwell.</h1>
+    <h1 style="color: blueviolet;">uma pagina sobre o gato maxwell.</h1>
 
     <p>uma foto para reconhecer o gato maxwell.</p>
 
@@ -20,11 +21,11 @@
         <tr>
          <table>
             
-            <td><p>vamos começar a falar deste gato, ele come uranio, o que ja é bem legal.<p><td> 
+            <td><p >vamos começar a falar deste gato, ele come uranio, o que ja é bem legal.<p><td> 
             <br/>
-            <td><p>um exemplo deste gato comendo uranio:</p><img src="c:\Users\nicolas_d_silveira\Downloads\watercoasting.gif" alt=""></td>
+            <td><p >um exemplo deste gato comendo uranio:</p><img src="c:\Users\nicolas_d_silveira\Downloads\watercoasting.gif" alt=""></td>
             <br/>
-            <td><img src="c:\Users\nicolas_d_silveira\Downloads\maxwell-cat.gif" alt=""></td>
+            <td> <img src="c:\Users\nicolas_d_silveira\Downloads\maxwell-cat.gif" alt=""></td>
 
          </table>  
          
@@ -32,7 +33,7 @@
             <td><p>este gato (vagabundo) tem um canal no youtube.</p></td>
             <br/>
             <td><a href="https://youtu.be/U2Fjfqm-7g8?si=PzcuggVFGQFDjd2Q" target="_blank">gato maxwell </a></td>
-            <td><p>não achei o canal, então se contente com 1 hora do maxwell girando (beep boop)</p></td>
+            <td><p >não achei o canal, então se contente com 1 hora do maxwell girando (beep boop)</p></td>
 
          </table>
          <table>
