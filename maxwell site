@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maxwell cat</title>
+</head>
+<body background="gif max.gif">
+    
+    <h1>uma pagina sobre o gato maxwell.</h1>
+
+    <p>uma foto para reconhecer o gato maxwell.</p>
+
+    <tr>
+        <td><img src="c:\Users\nicolas_d_silveira\Downloads\b951a266711ab7ae70411f313e7a3909.jpg" alt="" width="300" height="200"></td>
+
+
+    </tr>
+
+        <tr>
+         <table>
+            
+            <td><p>vamos começar a falar deste gato, ele come uranio, o que ja é bem legal.<p><td> 
+            <br/>
+            <td><p>um exemplo deste gato comendo uranio:</p><img src="c:\Users\nicolas_d_silveira\Downloads\watercoasting.gif" alt=""></td>
+            <br/>
+            <td><img src="c:\Users\nicolas_d_silveira\Downloads\maxwell-cat.gif" alt=""></td>
+
+         </table>  
+         
+         <table>
+            <td><p>este gato (vagabundo) tem um canal no youtube.</p></td>
+            <br/>
+            <td><a href="https://youtu.be/U2Fjfqm-7g8?si=PzcuggVFGQFDjd2Q">gato maxwell</a></td>
+            <td><p>não achei o canal, então se contente com 1 hora do maxwell girando (beep boop)</p></td>
+
+         </table>
+         <table>
+            <button type="button">pressione F</button>
+            <td><p>o pobre gatinho infelizmente morreu no inicio de 2020, então em forma de homenagem ao gatinho pressione o F por favor (pressione o botão acima)</p></td>
+         </table>
+        </tr>        
+    
+        <tr>
+
+            <table>
+                <td><p></p></td>
+            </table>
+
+        </tr>
+</body>
+</html>
