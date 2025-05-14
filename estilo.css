@@ -1,0 +1,22 @@
+p{
+    color: aquamarine
+    ;
+    text-align: center;
+
+}
+
+
+h1, h2, p{
+
+    color: aliceblue
+    ;
+}
+/* isto é um comentario */
+div div p{
+        margin: 10px;
+} 
+img{
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
