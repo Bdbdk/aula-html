@@ -1,71 +1,72 @@
-<html>
-    <head>
-        <!--o titulo, coisas que apareceriam na aba-->
-        <title>primeira aula</title>
-    </head>
-    <body>
-        <!--aqui onde sria o corpo, onde tem os textos e etc.-->
-        <!--aqui seria uma especie de titulo-->
-        <h1>primeiro código</h1>
-        <!--aqui seia a escrita no site-->
-        <p>olá mundo html!</p>
-        <!--com este comando colocamos links no site-->   
-        <a href="nicolas.html">acessar minha pagina</a>
-        <!--br/ serve para quebrar a linha-->
-        <br/>
-        <a href="https://www.w3schools.com/html/default.asp"><br/>livro</a>
-        <!--mais titulos-->
-        <h2>cabeçalho 2</h2>
-        <h3>cabeçalho 3</h3>
-        <h4>cabeçalho 4</h4>
-        <!--aqui nós criamos uma table, onde podemos fazer textos ou coisa do tipo (tr linha, td coluna)-->
-        <!--no "border" escrito em vermelho, é onde adicionamos a borda, e o 1 é a grossura dela.-->
-        <table border="1">
-            <tr>
-                <td>linha 1, coluna1</td>
-                <td>linha 1, coluna2</td>
-                <td>linha 1, coluna3</td>
-            </tr>
-            <tr>
-                <td>linha2, coluna1</td>
-                <td>linha2, coluna2</td>
-                <td>linha2, coluna3</td>
-
-            </tr>
-            <tr>
-                <td>
-                    <!--isso é para ordenar as linhas-->
-                    <ol>
-                      <li>linha1, coluna2</li>
-                   
-
-                </ol>linha3, coluna1</td>
-                <td>linha3, coluna2</td>
-                <td>linha3, coluna3</td>
-                <td>maxwell-cat<img src= "c:\Users\Aluno.SN-386061.018\Downloads\maxwell-cat.gif" alt=""></td>
-                <br>
-                <td>gato comendo uranio<img src="c:\Users\Aluno.SN-386061.018\Downloads\watercoasting.gif" alt=""></td>
-                <div>
-                    <p>hum</p>
-                    <td>hum<img src="c:\Users\Aluno.SN-386061.018\Downloads\41ReDvAHBPL.jpg" alt=""></td>
-                </div>
-                <td>autism<img src="c:\Users\Aluno.SN-386061.018\Downloads\7198I3nuW-L.jpg" width="1000" height="200" alt="AUTISTAAAAAAAAAAA (sons de tiro)"></td>
-                <video width="640" height="360" autoplay muted loop>
-                    <source src="c:\Users\Aluno.SN-386061.018\Downloads\m2-res_480p.mp4" type="video/mp4">
-                  </video>
-                  <p style="background-image: url('c:\Users\Aluno.SN-386061.018\Downloads\41ReDvAHBPL.jpg');"></p>
-            </tr>
-
-
-        </table>
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula java</title>
+    <style>
+        p{
+            color: blueviolet
     
-        <audio controls>
-            <source src="áudio-do-carlinhos-made-with-Voicemod.mp3" type="audio/ogg">
-            <source src="áudio-do-carlinhos-made-with-Voicemod.mp3" type="audio/mpeg">
-          </audio>
-          <iframe width="420" height="315"
-src="https://youtu.be/pxU8Zz9HmRQ?si=nDTia-fR-VvN2PjW">
-</iframe>
+        }
+    </style>
+    <script>
+        //isto é um comentario de uma linha
+        <!--isto é um comentario de multlinha-->
+        //caixa de dialogo - pop-up:
+        //colocar aqui pois vai ser executado antes do body.
+        //3 tipos de caixa de dialogo
+       
+        //caixa de alerta
+        alert("minha primeira mensagem")
+       
+        //caixa de confirmação
+        confirm("uma mensagem")
+
+        //caixa de dialogo
+        prompt("escreva seu nome:")
+
+        //escreva html com js (java script)
+        document.write("<p>olá html!<p>")
+        
+        //declaração de variavel
+        //esta é uma variavel flexivel (variavel dinamicamente tipada) então suporta quaisquer tipo de dado
+        //variavel global
+        minhaVariavel=prompt("digite seu nome:")
+
+        alert("bem vindo! "+ minhaVariavel)
+        //função
+        funcao1=function(){
+            //variavel local
+            var minhaVariavel = "alberto"
+            alert("bem vindo! "+ minhaVariavel)
+            
+        }
+        funcao2=function(){
+            alert("bem vindo" + minhaVariavel)
+        }
+        funcao3=function(){
+            var variaveltest1
+            prompt("digite um nome:"+ variaveltest1)
+        }
+        
+
+            
+
+    </script>
+    funcao3
+    <button type="button" ></button>
+</head>
+<body>
+    <script>
+        alert("bob")
+    </script>
+
+    <button type="button" onclick="alert('clique no botão')" >clique no botão</button>
+    <button type="button" onclick="confirm('uma mensagem')">clica no botão</button>
+    <button type="button" onclick="prompt('escreva seu nome')">clique neste botão</button>
+    <br/>
+    <button type="button" onclick="document.write('<p>este conteudo foi inserido após clicar no botão')">inserir conteudo</button>
     
-    </body>
+</body>
 </html>
